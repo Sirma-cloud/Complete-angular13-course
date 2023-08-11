@@ -1,0 +1,10 @@
+<div class="card">
+    <!-- The ng-content is used when we want to insert the content dynamically inside the component.
+    Using ng-content we can pass content inside the component selector and when angular parses that content appears at the place of ng-content -->
+    <ng-content select=".title"></ng-content>
+    <p class="summary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       At similique consectetur quisquam, 
+       possimus odio fugiat perferendis dolor voluptas autem inventore dolorem, tempore est sit qui alias corporis iusto eos! Ducimus.
+    </p>
+    <ng-content select=".btn-more"></ng-content>
+  </div>
