@@ -1,11 +1,12 @@
 .container{
-    width: 320px;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
     margin: 100px auto;
     padding: 30px 40px;
     border-radius: 3px;
     box-shadow: 10px 10px 5px #aaaaaa;
-    background-color: #eee;
-    align-items: center;
+    background-color: #c5c9c5;
+
 }
 
 button{
