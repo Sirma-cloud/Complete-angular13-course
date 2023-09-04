@@ -12,6 +12,9 @@
   <p>This is a demo HTML content to understand @HostBinding directive in angular</p>
 </div>
 
-<div [appClass] ="{container: 10 < 5, 'change-font': true}" >
+<div [appClass] ="{container: 10 > 5, 'change-font': true}" >
   <p>This is a demo HTML content to understand how to create custom ngClass directive in angular</p>
+</div>
+<div class="container"  [appStyle]="{backgroundColor: active ? 'Green' : 'red', fontweight: 'bold'}">
+  <p>This is a demo HTMLcontent to understand how to create custom ngStyle directive in Angular.</p>
 </div>
